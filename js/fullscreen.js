@@ -120,6 +120,7 @@ const getDom = () => {
     closeButton
   };
 
+  // Навешиваем обработчики один раз
   closeButton.addEventListener('click', closeFullPicture);
 
   document.addEventListener('keydown', (evt) => {
